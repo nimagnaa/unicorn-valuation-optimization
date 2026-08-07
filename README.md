@@ -1,4 +1,4 @@
-\# Unicorn Valuation Optimization Platform
+# Unicorn Valuation Optimization Platform
 
 
 
@@ -14,7 +14,7 @@ The project combines financial estimation, feature engineering, regression model
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -140,7 +140,7 @@ Examples include:
 
 
 
-\## Machine Learning
+## Machine Learning
 
 
 
@@ -176,7 +176,7 @@ The models were evaluated using:
 
 
 
-\### Model Performance
+### Model Performance
 
 
 
@@ -204,7 +204,7 @@ XGBoost was selected as the final regression model based on the combination of t
 
 
 
-\## Target Leakage Control
+## Target Leakage Control
 
 
 
@@ -236,7 +236,7 @@ The revised model was evaluated again using both a held-out test set and cross-v
 
 
 
-\## Hyperparameter Optimization
+## Hyperparameter Optimization
 
 
 
@@ -274,7 +274,7 @@ This provides a quantitative view of the effect of hyperparameter optimization.
 
 
 
-\## Forecasting Engine
+## Forecasting Engine
 
 
 
@@ -304,7 +304,7 @@ The forecasting stage combines company characteristics with industry, country, a
 
 
 
-\## ML Optimization Engine
+## ML Optimization Engine
 
 
 
@@ -356,7 +356,7 @@ The objective is to translate model predictions into practical financial recomme
 
 
 
-\## Explainability
+## Explainability
 
 
 
@@ -380,7 +380,7 @@ Instead of treating the ML model as a black box, the platform provides feature-l
 
 
 
-\## Dashboard
+## Dashboard
 
 
 
@@ -418,7 +418,7 @@ The interface uses a blue and white professional analytics theme.
 
 
 
-\## Project Architecture
+## Project Architecture
 
 
 
