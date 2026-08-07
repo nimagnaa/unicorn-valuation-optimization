@@ -1,0 +1,266 @@
+/* =========================================================
+   UNICORN VALUATION PLATFORM
+   Blue + White Professional Theme
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   MAIN APP
+   --------------------------------------------------------- */
+
+.stApp {
+    background-color: #f5f8fc;
+    color: #172033;
+}
+
+
+/* ---------------------------------------------------------
+   MAIN CONTENT
+   --------------------------------------------------------- */
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    max-width: 1400px;
+}
+
+
+/* ---------------------------------------------------------
+   GENERAL TEXT
+   --------------------------------------------------------- */
+
+.stApp p,
+.stApp span,
+.stApp label,
+.stApp li {
+    color: #172033;
+}
+
+
+/* ---------------------------------------------------------
+   HEADINGS
+   --------------------------------------------------------- */
+
+h1 {
+    color: #123b70 !important;
+    font-weight: 700 !important;
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    color: #164d87 !important;
+    font-weight: 650 !important;
+}
+
+h3 {
+    color: #1d5d9b !important;
+    font-weight: 600 !important;
+}
+
+
+/* ---------------------------------------------------------
+   CAPTIONS
+   --------------------------------------------------------- */
+
+.stCaption,
+[data-testid="stCaptionContainer"] {
+    color: #5c6b7d !important;
+}
+
+
+/* ---------------------------------------------------------
+   SIDEBAR
+   --------------------------------------------------------- */
+
+[data-testid="stSidebar"] {
+    background-color: #123b70;
+}
+
+[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+
+[data-testid="stSidebar"] .stMarkdown p {
+    color: #ffffff !important;
+}
+
+
+/* ---------------------------------------------------------
+   SELECTBOX
+   --------------------------------------------------------- */
+
+[data-baseweb="select"] {
+    background-color: #ffffff;
+}
+
+[data-baseweb="select"] * {
+    color: #172033 !important;
+}
+
+[data-baseweb="select"] > div {
+    border: 1px solid #cbd7e6;
+    border-radius: 7px;
+}
+
+
+/* ---------------------------------------------------------
+   INPUTS
+   --------------------------------------------------------- */
+
+.stTextInput input,
+.stNumberInput input {
+    background-color: #ffffff !important;
+    color: #172033 !important;
+    border: 1px solid #cbd7e6 !important;
+}
+
+
+/* ---------------------------------------------------------
+   METRIC CARDS
+   --------------------------------------------------------- */
+
+[data-testid="stMetric"] {
+    background-color: #ffffff;
+    border: 1px solid #dce5f0;
+    border-radius: 10px;
+    padding: 18px;
+    box-shadow: 0 2px 8px rgba(18, 59, 112, 0.06);
+}
+
+[data-testid="stMetricLabel"] {
+    color: #5c6b7d !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: #123b70 !important;
+    font-weight: 700 !important;
+}
+
+[data-testid="stMetricDelta"] {
+    color: #1d5d9b !important;
+}
+
+
+/* ---------------------------------------------------------
+   DATAFRAMES / TABLES
+   --------------------------------------------------------- */
+
+[data-testid="stDataFrame"] {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+
+/* ---------------------------------------------------------
+   BUTTONS
+   --------------------------------------------------------- */
+
+.stButton > button {
+    background-color: #165d9c;
+    color: #ffffff !important;
+    border: none;
+    border-radius: 7px;
+    padding: 0.55rem 1.2rem;
+    font-weight: 600;
+}
+
+.stButton > button:hover {
+    background-color: #123b70;
+    color: #ffffff !important;
+}
+
+
+/* ---------------------------------------------------------
+   DOWNLOAD BUTTON
+   --------------------------------------------------------- */
+
+.stDownloadButton > button {
+    background-color: #165d9c;
+    color: #ffffff !important;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+}
+
+.stDownloadButton > button:hover {
+    background-color: #123b70;
+    color: #ffffff !important;
+}
+
+
+/* ---------------------------------------------------------
+   DIVIDERS
+   --------------------------------------------------------- */
+
+hr {
+    border: none;
+    border-top: 1px solid #dce5f0;
+}
+
+
+/* ---------------------------------------------------------
+   INFO / SUCCESS / WARNING BOXES
+   --------------------------------------------------------- */
+
+[data-testid="stAlert"] {
+    border-radius: 8px;
+}
+
+
+/* ---------------------------------------------------------
+   CODE BLOCKS
+   --------------------------------------------------------- */
+
+[data-testid="stCodeBlock"] {
+    border-radius: 8px;
+}
+
+
+/* ---------------------------------------------------------
+   TABS
+   --------------------------------------------------------- */
+
+button[data-baseweb="tab"] {
+    color: #425466 !important;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #165d9c !important;
+}
+
+
+/* ---------------------------------------------------------
+   EXPANDERS
+   --------------------------------------------------------- */
+
+[data-testid="stExpander"] {
+    background-color: #ffffff;
+    border: 1px solid #dce5f0;
+    border-radius: 8px;
+}
+
+[data-testid="stExpander"] * {
+    color: #172033;
+}
+
+
+/* ---------------------------------------------------------
+   MULTISELECT
+   --------------------------------------------------------- */
+
+[data-baseweb="tag"] {
+    background-color: #e6f0fa !important;
+}
+
+[data-baseweb="tag"] span {
+    color: #123b70 !important;
+}
+
+
+/* ---------------------------------------------------------
+   FOOTER
+   --------------------------------------------------------- */
+
+footer {
+    visibility: hidden;
+}
